@@ -16,5 +16,9 @@ We will be looking into the following:
 
   
 - Which category has highest average dislikes?
+
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/34b30e50-0c31-4b5c-aa8c-84913b15214d)
+
+  
 - In which month,T-series has lowest average views.
 - In the Travel & Events category, which channel is most popular(based on highest sum of views)
