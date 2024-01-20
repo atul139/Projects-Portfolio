@@ -1,5 +1,5 @@
 # Data Analytics Portfolio
-This is my portfolio, which contains my Data Analysis Projects using Python, SQL, Excel, Tableau, and Power BI.
+This is my portfolio, which contains my Data Analysis Projects using Python, Statistics, SQL, Excel and Power BI.
 
 ## About me
 My name is Atul T P and I am a Hardware and Network Engineer turned Data Analyst. While working as a Hardware and Network Engineer, I often spent time analyzing Excel sheets to help my accounts department in Auditing. This made me realize my strong desire to always analyze data. As a result, I decided to switch my career and become a Data Analyst. I can confidently say that it was a decision I do not regret having taken.
