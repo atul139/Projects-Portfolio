@@ -26,3 +26,6 @@ We will be looking into the following:
 
   
 - In the Travel & Events category, which channel is most popular(based on highest sum of views)
+
+  ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/cc601dc6-85c9-4775-979c-9cb02e04b365)
+
