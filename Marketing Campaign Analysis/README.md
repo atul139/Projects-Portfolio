@@ -30,7 +30,7 @@ Name of the tables:
 - Campaign
   
 Dataset schema
-![schema](https://github.com/Marketing Campaign Analysis/schema.png)
+![schema](/Marketing_Campaign_Analysis/schema.png)
 
 ## Data Analysis
 I have worked with the following concepts:
