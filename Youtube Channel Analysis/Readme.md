@@ -7,7 +7,8 @@ The primary objective of this EDA project is to look for insights and provide gu
 We will be looking into the following:
 - Plot the category wise sum of views?
 
-   
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/45cfc3de-6998-44a9-b4c1-eedacc91b39e)
+
   
 - Plot the number of videos per category?
 - Which category has highest average dislikes?
