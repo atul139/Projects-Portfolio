@@ -21,6 +21,9 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 
 2. Kevin is planning to reduce the ferrous raw material prices for further years for his supplier, so far in the past 2 years which is the highest Tonnage consuming RM Grade and how many tons?
 
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/9245d6ef-8d17-4a6a-8732-778cbd566b53)
+
+
 3. We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost 
    saving. check if they have more than one casting supplier?   
 
