@@ -21,4 +21,8 @@ We will be looking into the following:
 
   
 - In which month,T-series has lowest average views.
+
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/a71415c7-4931-4355-84f6-af0a998d9e3d)
+
+  
 - In the Travel & Events category, which channel is most popular(based on highest sum of views)
