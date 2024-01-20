@@ -10,8 +10,8 @@ I am proficient in using Python (Jupyter Notebooks/Google Colab), Statistics, SQ
 ## Skillset and Data Stack
 Python: Jupiter Notebook/Google Colab . Cleaning, data analysis, visualizations, functions, loops, web scraping. Libraries: NumPy, Pandas, Matplotlib, Seaborn.
 
-### Sheets: Excel/Google Sheets. Filtering, sorting, cleaning, conditional formatting, VLOOKUP, formulas and functions, Pivot Tables, charts and dashboards, and more.
+Sheets: Excel/Google Sheets. Filtering, sorting, cleaning, conditional formatting, VLOOKUP, formulas and functions, Pivot Tables, charts and dashboards, and more.
 
-### SQL: MySQL, DDL, DML, aggregate functions, JOINS, and more.
+SQL: MySQL, DDL, DML, aggregate functions, JOINS, and more.
 
-### Data viz and story-telling: Power BI.
+Data viz and story-telling: Power BI.
