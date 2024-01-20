@@ -6,6 +6,9 @@ The primary objective of this EDA project is to look for insights and provide gu
 ## Findings and Visualization:
 We will be looking into the following:
 - Plot the category wise sum of views?
+
+   
+  
 - Plot the number of videos per category?
 - Which category has highest average dislikes?
 - In which month,T-series has lowest average views.
