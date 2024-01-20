@@ -14,14 +14,14 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 
 ## Findings/Insights:
 
-### 1. The Management wants us to minimize the risk with our suppliers, show me the biggest NoGo Suppliers that we have to target first?
+1. The Management wants us to minimize the risk with our suppliers, show me the biggest NoGo Suppliers that we have to target first?
 
-### 2. Kevin is planning to reduce the ferrous raw material prices for further years for his supplier, so far in the past 2 years which is the highest Tonnage consuming RM Grade and how many tons?
+2. Kevin is planning to reduce the ferrous raw material prices for further years for his supplier, so far in the past 2 years which is the highest Tonnage consuming RM Grade and how many tons?
 
-### 3. We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost 
+3. We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost 
    saving. check if they have more than one casting supplier?   
 
 ## Link to dashboard:
-https://app.powerbi.com/view?r=eyJrIjoiZTA1Y2ExNzMtZDU1Ny00MDQ3LWJjNTEtNThjY2U0Y2JjNmIxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
+https://app.powerbi.com/viewr=eyJrIjoiZTA1Y2ExNzMtZDU1Ny00MDQ3LWJjNTEtNThjY2U0Y2JjNmIxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
 or
 https://rb.gy/3ceorb
