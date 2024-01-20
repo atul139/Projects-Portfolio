@@ -27,6 +27,9 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 3. We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost 
    saving. check if they have more than one casting supplier?   
 
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/ebca0041-7335-4d23-82dc-deb9ae19e121)
+
+
 ## Link to dashboard:
 https://app.powerbi.com/viewr=eyJrIjoiZTA1Y2ExNzMtZDU1Ny00MDQ3LWJjNTEtNThjY2U0Y2JjNmIxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
 or
