@@ -31,6 +31,7 @@ Name of the tables:
   
 Dataset schema
 ![schema](/Marketing_Campaign_Analysis/schema.png)
+![alt text](https://github.com/atul139/Projects-Portfolio/blob/Marketing_Campaign_Analysis/schema.png?raw=true)
 
 ## Data Analysis
 I have worked with the following concepts:
