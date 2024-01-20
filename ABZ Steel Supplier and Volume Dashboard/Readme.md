@@ -16,6 +16,9 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 
 1. The Management wants us to minimize the risk with our suppliers, show me the biggest NoGo Suppliers that we have to target first?
 
+   ![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/4c5df9ae-9ebb-4eae-94a5-81336b57c368)
+
+
 2. Kevin is planning to reduce the ferrous raw material prices for further years for his supplier, so far in the past 2 years which is the highest Tonnage consuming RM Grade and how many tons?
 
 3. We want to declutter the supply chain for our top 5 suppliers, we can decide to buy from one single source and negotiate for cost 
