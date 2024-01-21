@@ -157,6 +157,7 @@ plt.ylabel('Count')
 plt.xticks(rotation=45)
 plt.show()
 ~~~
+![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/e50b913b-9841-45ea-8021-f9a123743a52)
 
 ~~~
 import matplotlib.pyplot as plt
@@ -181,6 +182,7 @@ plt.xlabel('Flat Area (sq.mt)')
 plt.ylabel('Frequency')
 plt.show()
 ~~~
+![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/a92537e4-fb78-4d5a-8c22-f7159ed2acc1)
 
 ~~~
 # Owner and Tenant Information
@@ -202,4 +204,5 @@ print("\nMost Common Number of Rooms in Flats:", most_common_room)
 print("\nPercentage of Flat Owners:", owner_percentage, "%")
 print("\nPercentage of Tenants:", tenant_percentage, "%")
 ~~~
+![image](https://github.com/atul139/Projects-Portfolio/assets/121300861/d8c9d448-bcb9-4d0c-bb24-7114b910ccdd)
 
