@@ -70,3 +70,66 @@ columns to numeric data types while handling any conversion errors by setting th
      and if 'Availability of owner' is not 'Yes,' we consider the flat as vacant ('Flat Vacancy' is 'Vacant').
    - For missing values in the 'Donation', ‘No of Resident' , 'Confirmed Members' column, we impute them with the median value of the respective column.
    - Finally, we handle missing values in the 'Availability of owner' and 'Origin of Owner' columns by imputing them with the mode (most frequent value) of their respective columns.
+
+## Code Snippet:
+~~~
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("/content/Final_Data - Final_Data.csv.csv")
+print("1st five rows")
+print(df.head())
+
+print("Data types and missing values")
+print(df.info())
+
+print("Summary statistics for numeric columns")
+print(df.describe())
+
+print("Number of unique values in each column:")
+print(df.nunique())
+
+print("Check the unique values in each column")
+for i in df.columns:
+  print(df[i].nunique())
+
+print("Null Values in each column")
+print(df.isnull().sum())
+
+print("Duplictae Values in the dataset")
+print(df.duplicated().sum())
+~~~
+
+##Code snippet for correcting missing values
+~~~
+
+# Impute missing values in 'Donation' column with the median
+
+df['Donation'].fillna(df['Donation'].median(), inplace=True)
+
+# Impute missing values in 'No of Resident' column with the median
+
+df['No of Resident'].fillna(df['No of Resident'].median(), inplace=True)
+
+# Impute missing values in 'Confirmed Members' column with the median
+
+df['Confirmed Members'].fillna(df['Confirmed Members'].median(), inplace=True)
+
+# Impute 'Availability of owner' missing values with mode
+
+mode_availability = df['Availlability of owner'].mode()[0]
+
+df['Availlability of owner'].fillna(mode_availability, inplace=True)
+
+# Impute 'Origin of Owner' missing values with mode
+
+mode_origin = df['Origin of Owner'].mode()[0]
+
+df['Origin of Owner'].fillna(mode_origin, inplace=True)
+
+# Print the DataFrame with missing values imputed
+
+
+print(df.isnull().sum() *100 /df.shape[0])
+~~~
+
