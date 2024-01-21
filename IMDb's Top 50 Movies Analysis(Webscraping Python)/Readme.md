@@ -4,7 +4,7 @@ The world of cinema holds an irresistible allure. They're captivated by the intr
 and the relentless creativity. All this effort condensed into a mere 1.5-hour movie.Yet, the audience's verdict is swift. In just a few moments, a movie's 
 fate is sealed – whether it's captivating or mundane, authentic or fantastical, a source of inspiration or a letdown. The magic of cinema unfolds in a matter of minutes.
 
-## Problem Statement 1
+## Problem Statement
 You have been tasked with creating a powerful movie analysis and review aggregator for a media company. The application should allow users to retrieve and display IMDb's Top 50 Movies. 
 You will implement web scraping using Python's requests and BeautifulSoup libraries to gather information about the top 50 rated movies on IMDb and then perform additional operations on 
 this data. And now, Sort the movie data by IMDb ratings in descending order. Create a list containing the top 5 movies with the highest IMDb ratings. Iterate through the top 5 movies and 
