@@ -133,3 +133,73 @@ df['Origin of Owner'].fillna(mode_origin, inplace=True)
 print(df.isnull().sum() *100 /df.shape[0])
 ~~~
 
+## Visualizations:
+
+Visualizations for the distribution of residents by origin, flat area, distribution, and the distribution of flat owners vs. tenants.
+- Code snippet:
+~~~
+  import matplotlib.pyplot as plt
+import seaborn as sns
+# Demographic Overview
+# Calculate the average number of residents per flat
+avg_residents_per_flat = df['No of Resident'].mean()
+print(avg_residents_per_flat)
+
+# Distribution of residents by origin
+origin_distribution = df['Origin of Owner'].value_counts()
+
+# Visualization: Distribution of residents by origin
+plt.figure(figsize=(10, 6))
+sns.barplot(x=origin_distribution.index, y=origin_distribution.values)
+plt.title('Distribution of Residents by Origin')
+plt.xlabel('Origin of Owner')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.show()
+~~~
+
+~~~
+import matplotlib.pyplot as plt
+import seaborn as sns
+# Flat Information
+#Calculate the average flat area (in square meters).
+avg_flat_area = df['Flat Area (sq.mt)'].mean()
+print(avg_flat_area)
+
+#Find the most common number of rooms in flats.
+most_common_room = df['No of Room'].mode().values[0]
+print(most_common_room)
+
+# Distribution of residents by origin
+origin_distribution = df['Origin of Owner'].value_counts()
+
+# Visualize the distribution of flat areas using a histogram.
+plt.figure(figsize=(8, 5))
+sns.histplot(df['Flat Area (sq.mt)'], bins=10, kde=True)
+plt.title('Flat Area Distribution')
+plt.xlabel('Flat Area (sq.mt)')
+plt.ylabel('Frequency')
+plt.show()
+~~~
+
+~~~
+# Owner and Tenant Information
+# Calculate the percentage of flat owners and tenants
+owner_percentage = (df['Tenant or owner'] == 'owner').mean() * 100
+tenant_percentage = (df['Tenant or owner'] == 'tenant').mean() * 100
+
+# Visualization: Distribution of Owner vs. Tenant
+plt.figure(figsize=(6, 6))
+plt.pie([owner_percentage, tenant_percentage], labels=['Owner', 'Tenant'], autopct='%1.1f%%')
+plt.title('Distribution of Flat Owners and Tenants')
+plt.show()
+
+
+# Print the calculated statistics
+print("Average Number of Residents per Flat:", avg_residents_per_flat)
+print("\nAverage Flat Area:", avg_flat_area, "sq.mt")
+print("\nMost Common Number of Rooms in Flats:", most_common_room)
+print("\nPercentage of Flat Owners:", owner_percentage, "%")
+print("\nPercentage of Tenants:", tenant_percentage, "%")
+~~~
+
