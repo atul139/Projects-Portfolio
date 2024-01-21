@@ -44,3 +44,30 @@ Analyze the data and gain insights for organizing the grand event find out follo
    One important aspect of data quality is identifying and handling duplicated data. We utilise the duplicated() method in pandas to check
    for duplicated rows within the dataset. The sum() function is then applied to count the total number of duplicated rows. Duplicated data can
    introduce bias and inaccuracies into our analysis, so it's essential to address it appropriately.
+
+
+## Building the code 
+ 
+
+1. Replace "_" with NaN in the entire DataFrame
+
+We begin by addressing missing data. In our dataset, missing values are represented as underscores. 
+We'll replace these underscores with NaN (Not-a-Number) values using the replace function to facilitate further data processing.
+
+2. Handling Missing Values: 
+
+We identify and remove two columns, 'Unnamed: 0' and 'Owner's Spouse Name,' as they are not relevant to our analysis. Dropping unnecessary columns helps simplify the dataset.
+
+3. Data Type Conversion: 
+
+We ensure that relevant columns are of the correct data types for analysis. Specifically, we convert 'No of Resident' and 'Confirmed Members' 
+columns to numeric data types while handling any conversion errors by setting them to NaN.
+
+4. Impute Missing Values in 'Maintenance Amt' , ‘Flat Vacancy’, 'Donation', ‘No of Resident' , 'Confirmed Members', 'Availability of owner' and 'Origin of Owner' 
+
+- To address missing values in the 'Maintenance Amt' column, we iteratively go through the DataFrame. For each missing value, we impute it based on the corresponding 'Flat Area (sq.mt)' 
+  value. We reference a previously calculated dictionary, 'avg_maintenance_amt,' to fill in these values
+- We handle missing values in the 'Flat Vacancy' column by using a conditional approach. If 'Availability of owner' is 'Yes,' we assume the flat is owned ('Flat Vacancy' is 'Owned'), and 
+  if 'Availability of owner' is not 'Yes,' we consider the flat as vacant ('Flat Vacancy' is 'Vacant').
+- For missing values in the 'Donation', ‘No of Resident' , 'Confirmed Members' column, we impute them with the median value of the respective column.
+- Finally, we handle missing values in the 'Availability of owner' and 'Origin of Owner' columns by imputing them with the mode (most frequent value) of their respective columns.
