@@ -31,6 +31,4 @@ To analyze and find the regions and product categories for improvement in busine
 - Table - Department name, Category name, product name, #units sold, Total Profit, Total Profit Ratio, Total Revenue.
 
 Link to the dashboard: 
-https://app.powerbi.com/view?r=eyJrIjoiMTc5MTI2ZGEtOTQ3NC00YmJhLWEyMjItZThkNjE1NjY1MmQxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
-or
-https://rb.gy/cogwyq
+https://app.fabric.microsoft.com/view?r=eyJrIjoiOWExZGU5OGMtMGQ0Mi00Y2EzLWFiMGMtNGFmOTE0NTAwNzcxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
