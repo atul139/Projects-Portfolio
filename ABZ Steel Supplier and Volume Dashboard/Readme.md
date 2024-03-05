@@ -31,6 +31,4 @@ Our task is to build a dashboard page and name it as “Supplier Overview”, wh
 
 
 ## Link to dashboard:
-https://app.powerbi.com/viewr=eyJrIjoiZTA1Y2ExNzMtZDU1Ny00MDQ3LWJjNTEtNThjY2U0Y2JjNmIxIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
-or
-https://rb.gy/3ceorb
+https://app.fabric.microsoft.com/view?r=eyJrIjoiMTVhZmZjZDQtN2Y1NC00MTZiLTljOTQtNjM2YTAxMmNjMTJmIiwidCI6IjExYTQ0Mjc1LTY2MmEtNDA2OS04NjVmLTYxYjNmM2UyOTg2MyJ9
